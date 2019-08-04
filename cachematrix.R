@@ -16,7 +16,6 @@ makeCacheMatix <- function(x=matrix()) {
 ##
 ##
 ##The function is to check if the cache is available, otherwise will calculate the inverse of the matrix
-
 cachesolve <- function(x, ...) {
         xinverse <- x$getinverse()
         if(!is.null(xinverse)) {
